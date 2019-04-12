@@ -1,7 +1,18 @@
-#parent{
-    height:100 vh;
-    border: 20px solid rgb(0 , 0 ,0)
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+
+
+#parent{
+    height:100vh;
+    border: 10px solid rgb(0 , 0 ,0);
+    display:flex;
+    background: rgb(73, 9, 9);)
+    
+    
 }
 
 .box{
@@ -12,13 +23,23 @@
 
 #first{
     background: rgb(39, 61, 134);
+    flex: 1 1 300px;
 
 }
 
 #second{
     background: rgb(172, 57, 53);
+    align-self: center;
+    order: 2;
 }
 
 #third{
-    background: rgb(100, 81, 12);
+    background: rgb(201, 171, 65);
+    align-self: flex-end;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    font-family:sans-serif
 }
