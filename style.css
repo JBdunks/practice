@@ -1,0 +1,23 @@
+#parent{
+    height:100 vh;
+    border: 20px solid rgb(0 , 0 ,0)
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+
+}
+
+#first{
+    background: rgb(39, 61, 134);
+
+}
+
+#second{
+    background: rgb(172, 57, 53);
+}
+
+#third{
+    background: rgb(100, 81, 12);
+}
